@@ -1,21 +1,13 @@
-# bl72ToLatLng [![Build Status](https://travis-ci.org/leny/bl72ToLatLng.svg?branch=master)](https://travis-ci.org/leny/bl72ToLatLng)
+# bl72ToLatLng
 
-> Conversion from Belgian Lambert 72 projection to WGS84 latitude/longitude.
+> Conversion from Belgian Lambert 72 projection to WGS84 latitude/longitude in python
 
 * * *
 
-## Install
-
-```
-$ npm install --save bl72tolatlng
-```
-
 ## Usage
 
-```js
-var bl72ToLatLng = require( "bl72tolatlng" );
-
-bl72ToLatLng( 235166, 148974 ); // returns { "latitude": 50.645173, "longitude": 5.572941 }
+```python
+bl72_to_latlng(235166, 148974)  # returns {'latitude': 50.64517278981963, 'longitude': 5.572941050014241}
 ```
 
 ## License
